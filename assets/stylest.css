@@ -1,0 +1,74 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 600px){
+    
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    
+}
+@media only screen and (min-width: 1025px){
+    
+}
+a{
+    text-decoration:none;
+    color:#c99c9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    color:rgb(112, 55, 55);
+}
+a:active{
+    color:darksalmon;
+}
+a:visited{
+    color:rgb(209, 196, 137);
+}
+.encabezado{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    height: 10em;
+    background-size:cover;
+    text-align: center;
+    margin-top: -1.35em;
+}
+.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.producto img{
+    position: relative;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 10em; 
+}
+:root {
+    --fondo-principal: rgb(255, 255, 255);
+    --texto-principal: rgb(0, 0, 0);
+}
+body {
+    background-color: var(--fondo-principal);
+    color: var(--texto-principal);
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s, color 0.3s;
+}
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.tema-dark {
+    --fondo-principal: #442c0d;
+    --texto-principal: #ffffff;
+}
+.tema-light {
+    --fondo-principal: #a37252;
+    --texto-principal: #000000;
+}
+.tema-old {
+    --fondo-principal: #8d8262;
+    --texto-principal: #000000;
+}

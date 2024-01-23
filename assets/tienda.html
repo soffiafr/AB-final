@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylest.css">
+</head>
+<body>
+    <header>
+        <select id="themeSelector">
+            <option value="original">Original</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+            <option value="old">Old</option>
+        </select>
+        <div class="encabezado">
+            <h1>Bienvenidos a la tienda online de DIAMD</h1>
+            <h2>Que tengas buena compra</h2>
+            <a href="pricipal.html">Inicio</a>
+        </div>
+    </header>
+    <main>
+        <section id="productos">
+            <h2>DARK ACADEMIA</h2>
+            <div class="producto" id="producto1">
+                <img src="blusad.jpg" alt="">
+                <h3>Blusa Dark</h3>
+                <p>Precio: $15.00</p>
+                <button onclick="agregarAlCarrito('Blusa Dark', 15)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto2">
+                <img src="faldad.jpg" alt="">
+                <h3>Falda Dark</h3>
+                <p>Precio: $20.30</p>
+                <button onclick="agregarAlCarrito('Falda Dark', 20.30)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto3">
+                <img src="pantalond.jpg" alt="">
+                <h3>Pantalon Dark</h3>
+                <p>Precio: $10.85</p>
+                <button onclick="agregarAlCarrito('Pantalon Dark', 10.85)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto4">
+                <img src="vestidod.jpg" alt="">
+                <h3>Vestido Dark</h3>
+                <p>Precio: $30.00</p>
+                <button onclick="agregarAlCarrito('Vestido Dark', 30)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto5">
+                <img src="jerseyd.jpg" alt="">
+                <h3>Jersey Dark</h3>
+                <p>Precio: $18.40</p>
+                <button onclick="agregarAlCarrito('Jersey Dark', 18.40)">Agregar al Carrito</button>
+            </div>
+        </section>
+        <section id="productos">
+            <h2>LIGHT ACADEMIA</h2>
+            <div class="producto" id="producto1">
+                <img src="blusal.jpg" alt="">
+                <h3>Blusa Light</h3>
+                <p>Precio: $15.00</p>
+                <button onclick="agregarAlCarrito('Blusa Light', 15)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto2">
+                <img src="faldal.jpg" alt="">
+                <h3>Falda Light</h3>
+                <p>Precio: $20.30</p>
+                <button onclick="agregarAlCarrito('Falda Light', 20.30)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto3">
+                <img src="pantalonl.jpg" alt="">
+                <h3>Pantalon Light</h3>
+                <p>Precio: $10.85</p>
+                <button onclick="agregarAlCarrito('Pantalon Light', 10.85)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto4">
+                <img src="vestidol.jpg" alt="">
+                <h3>Vestido Light</h3>
+                <p>Precio: $30.00</p>
+                <button onclick="agregarAlCarrito('Vestido Light', 30)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto5">
+                <img src="jerseyl.jpg" alt="">
+                <h3>Cardigan Light</h3>
+                <p>Precio: $18.40</p>
+                <button onclick="agregarAlCarrito('Cardigan Light', 18.40)">Agregar al Carrito</button>
+            </div>
+        </section>
+        <section id="productos">
+            <h2>OLD MONEY</h2>
+            <div class="producto" id="producto1">
+                <img src="blusao.jpg" alt="">
+                <h3>Blusa Old</h3>
+                <p>Precio: $15.00</p>
+                <button onclick="agregarAlCarrito('Blusa Old', 15)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto2">
+                <img src="faldao.jpg" alt="">
+                <h3>Falda Old</h3>
+                <p>Precio: $20.30</p>
+                <button onclick="agregarAlCarrito('Falda Old', 20.30)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto3">
+                <img src="pantalono.jpg" alt="">
+                <h3>Pantalon Old</h3>
+                <p>Precio: $10.85</p>
+                <button onclick="agregarAlCarrito('Pantalon Old', 10.85)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto4">
+                <img src="vestidoo.jpg" alt="">
+                <h3>Vestido Old</h3>
+                <p>Precio: $30.00</p>
+                <button onclick="agregarAlCarrito('Vestido Old', 30)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto5">
+                <img src="jerseyo.jpg" alt="">
+                <h3>Chaqueta Old</h3>
+                <p>Precio: $18.40</p>
+                <button onclick="agregarAlCarrito('Chaqueta Old', 18.40)">Agregar al Carrito</button>
+            </div>
+        </section>
+        <section id="carrito">
+            <h2>Carrito</h2>
+            <div id="itemsCarrito"></div>
+            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

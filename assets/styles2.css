@@ -1,0 +1,308 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 600px){
+    
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    
+}
+@media only screen and (min-width: 1025px){
+    
+}
+a{
+    text-decoration:none;
+    color:#c99c9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    color:rgb(112, 55, 55);
+}
+a:active{
+    color:darksalmon;
+}
+a:visited{
+    color:rgb(209, 196, 137);
+}
+.navbar{
+    display: flex;
+    height: 2em;
+    background-color: rgb(51, 27, 0);
+}
+.navbar a{
+    margin-left: 1em;
+    font: 1em;
+}
+.menu{
+    height: 4em;
+    background-color: rgb(29, 16, 0);
+}
+.menu img{
+    position: relative;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+.menu a{
+    margin-left: 1em;
+    font: 1em;
+}
+.envios{
+    display: flex;
+    height: 4em;
+    background-color: rgb(51, 27, 0);
+}
+.envios button{
+    width: 30em;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(240, 238, 139);
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    justify-content: space-between;
+    margin: 1em;
+    text-align: center;
+}
+.Remodela{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    height: 10em;
+    background-size:cover;
+    text-align: center;
+    margin-top: -1.35em;
+}
+.topd img{
+    position: relative;
+    top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 30em;
+    transition-duration: 0.25s;
+}
+.topd img:hover{
+    border-bottom: 2px solid white;
+    color: #ffffff;
+}
+.topd a{
+    position: relative;
+    margin-left: 15em;
+    margin-right: 2em;
+    max-width: 100%;
+}
+.topd h2{
+    position: relative;
+    margin-left: 11em;
+    margin-right: 2em;
+}
+.bottomd img{
+    position: relative;
+    top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 30em;
+}
+.bottomd img:hover{
+    border-bottom: 2px solid white;
+}
+.bottomd a{
+    position: relative;
+    margin-left: 15em;
+    margin-right: 2em;
+}
+.bottomd h2{
+    position: relative;
+    margin-left: 10.2em;
+    margin-right: 2em;
+}
+.fulld img{
+    position: relative;
+    top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 30em;
+}
+.fulld img:hover{
+    border-bottom: 2px solid white;
+}
+.fulld a{
+    position: relative;
+    margin-left: 16em;
+    margin-right: 2em;
+}
+.fulld h2{
+    position: relative;
+    margin-left: 12em;
+    margin-right: 2em;
+}
+.dark{
+    display: flex;
+    justify-content: space-between;
+}
+.topl img{
+    position: relative;
+    top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 30em;
+    transition-duration: 0.25s;
+}
+.topl img:hover{
+    border-bottom: 2px solid white;
+}
+.topl a{
+    position: relative;
+    margin-left: 15em;
+    margin-right: 2em;
+}
+.topl h2{
+    position: relative;
+    margin-left: 11em;
+    margin-right: 2em;
+}
+.bottoml img{
+    position: relative;
+    top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 30em;
+}
+.bottoml img:hover{
+    border-bottom: 2px solid white;
+}
+.bottoml a{
+    position: relative;
+    margin-left: 15em;
+    margin-right: 2em;
+}
+.bottoml h2{
+    position: relative;
+    margin-left: 10.2em;
+    margin-right: 2em;
+}
+.fulll img{
+    position: relative;
+    top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 30em;
+}
+.fulll img:hover{
+    border-bottom: 2px solid white;
+}
+.fulll a{
+    position: relative;
+    margin-left: 16em;
+    margin-right: 2em;
+}
+.fulll h2{
+    position: relative;
+    margin-left: 12em;
+    margin-right: 2em;
+}
+.light{
+    display: flex;
+    justify-content: space-between;
+}
+.topo img{
+    position: relative;
+    top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 30em;
+}
+.topo img:hover{
+    border-bottom: 2px solid white;
+}
+.topo a{
+    position: relative;
+    margin-left: 15em;
+    margin-right: 2em;
+}
+.topo h2{
+    position: relative;
+    margin-left: 11em;
+    margin-right: 2em;
+}
+.bottomo img{
+    position: relative;
+    top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 30em;
+}
+.bottomo img:hover{
+    border-bottom: 2px solid white;
+}
+.bottomo a{
+    position: relative;
+    margin-left: 15em;
+    margin-right: 2em;
+}
+.bottomo h2{
+    position: relative;
+    margin-left: 10.2em;
+    margin-right: 2em;
+}
+.fullo img{
+    position: relative;
+    top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 30em;
+}
+.fullo img:hover{
+    border-bottom: 2px solid white;
+}
+.fullo a{
+    position: relative;
+    margin-left: 16em;
+    margin-right: 2em;
+}
+.fullo h2{
+    position: relative;
+    margin-left: 12em;
+    margin-right: 2em;
+}
+.old{
+    display: flex;
+    justify-content: space-between;
+}
+.otros{
+    margin-top: 2em;
+} 
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+:root {
+    --fondo-principal: rgb(255, 255, 255);
+    --texto-principal: rgb(0, 0, 0);
+}
+body {
+    background-color: var(--fondo-principal);
+    color: var(--texto-principal);
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s, color 0.3s;
+}
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.tema-dark {
+    --fondo-principal: #442c0d;
+    --texto-principal: #ffffff;
+}
+.tema-light {
+    --fondo-principal: #a37252;
+    --texto-principal: #000000;
+}
+.tema-old {
+    --fondo-principal: #8d8262;
+    --texto-principal: #000000;
+}
